@@ -4,9 +4,9 @@ class Member
   MEMBERS= []
 
   def initialize(args)
-    @name = params[:name]
-    @power = params[:power]
-    @bio = params[:bio]
+    @name = args[:name]
+    @power = args[:power]
+    @bio = args[:bio]
     MEMBERS << self
   end
 
