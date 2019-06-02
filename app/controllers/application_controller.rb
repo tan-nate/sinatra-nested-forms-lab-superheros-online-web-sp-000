@@ -21,7 +21,6 @@ class App < Sinatra::Base
       @member1 = Member.all[0]
       @member2 = Member.all[1]
       @member3 = Member.all[2]
-      binding.pry
 
       erb :super_hero
     end
